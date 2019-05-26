@@ -59,10 +59,6 @@ body {
     background-color: #F4D7DD;
 }
 
-.book{
-    margin: 695px 0 0 12%;
-    width: 750px;
-}
 .inline-block{
     display: inline-block;
     text-align: center;
@@ -71,6 +67,7 @@ body {
     line-height: 3;
 }
 .preface{
+    position: absolute;
     display: inline-block;
     margin: 126px 0 0 126px;
     width: 50px;
@@ -84,16 +81,83 @@ body {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    z-index: 11;
 }
 /*.star-content,body,html{*/
     /*width: 100vw;*/
     /*overflow: scroll;*/
 /*}*/
 .contact{
-    padding-left: 20%;
+    /*padding-left: 20%;*/
     font-size: 14px;
+    text-align: center;
+}
+.contact p {
+    text-align: left;
 }
 .copyright{
     padding-top: 0;
     font-size: 12px;
+}
+
+/*subview*/
+.box{
+    margin: 5% 5% 5%;
+    padding: 12px;
+    background-color: #fffcee;
+    border-radius: 15px;
+}
+.nav{
+    margin: 0 auto;
+    width: 300px;
+    padding-left: 20px;
+}
+.nav:last-child{
+    margin-right: 0;
+}
+.ball-right{
+    margin: 15px auto 30px;
+}
+.nav-ball{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    vertical-align: top;
+}
+.nav-ball img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: ball 26s linear infinite;
+    -webkit-animation: ball 26s linear infinite;
+}
+.nav-blue{
+    background-color: #1de7ff;
+    background: url(../img/blue-ball.png) no-repeat;
+    background-size: 50px 50px;
+}
+@keyframes ball {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.title{
+    margin: 63% auto 0;
+    background: url(../img/btn-blue.png) no-repeat;
+    width: 150px;
+    height: 40px;
+    background-size: 150px 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #333;
 }
