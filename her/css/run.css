@@ -82,7 +82,7 @@
 #advert .bg1 .icon01 {
     bottom: 25px;
     left: 7px;
-    background-image: url(../img/pink-ball.png);
+    background-image: url(../img/black-ball.png);
     background-size: 50px 50px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -92,7 +92,7 @@
 #advert .bg1 .icon02 {
     top: 80px;
     left: -24px;
-    background-image: url(../img/black-ball.png);
+    background-image: url(../img/blue-ball.png);
     background-size: 50px 50px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -102,7 +102,7 @@
 #advert .bg1 .icon03 {
     top: -7px;
     left: 44px;
-    background-image: url(../img/orange-ball.png);
+    background-image: url(../img/pink-ball.png);
     background-size: 50px 50px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -112,7 +112,7 @@
 #advert .bg1 .icon04 {
     top: -7px;
     right: 44px;
-    background-image: url(../img/blue-ball.png);
+    background-image: url(../img/orange-ball.png);
     background-size: 50px 50px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -122,7 +122,7 @@
 #advert .bg1 .icon05 {
     top: 80px;
     right: -24px;
-    background-image: url(../img/pink-ball.png);
+    background-image: url(../img/black-ball.png);
     background-size: 50px 50px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -132,7 +132,7 @@
 #advert .bg1 .icon06 {
     bottom: 25px;
     right: 7px;
-    background-image: url(../img/black-ball.png);
+    background-image: url(../img/blue-ball.png);
     background-size: 50px 50px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -142,7 +142,7 @@
 #advert .bg1 .icon07 {
     bottom: -25px;
     left: 105px;
-    background-image: url(../img/orange-ball.png);
+    background-image: url(../img/pink-ball.png);
     background-size: 50px 50px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

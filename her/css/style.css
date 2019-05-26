@@ -76,7 +76,7 @@ body {
     text-align: center;
     color:#fff;
     background-color: #1de7ff;
-    background-image: url(../img/blue-ball.png);
+    background-image: url(../img/orange-ball.png);
     background-size: 50px 50px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -160,4 +160,23 @@ body {
     text-align: center;
     line-height: 40px;
     color: #333;
+    font-size: 22px;
+}
+.time{
+    margin: 25px 15px 60px;
+    width: calc(100vw - 30px);
+}
+.subtitle{
+    padding: 10px;
+    font-size: 22px;
+    color: #27747c;
+    text-align: center;
+    letter-spacing: 8px;
+}
+.group-title{
+    margin-top:10px;
+    margin-bottom:10px;
+    display:inline-block;
+    font-size : 20px;
+    color: #3aa9bc
 }
