@@ -31,7 +31,7 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
-    overflow: hidden;
+    overflow-X: hidden;
 }
 
 img {
@@ -85,10 +85,10 @@ body {
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
-.star-content,body,html{
-    width: 100vw;
-    overflow: scroll;
-}
+/*.star-content,body,html{*/
+    /*width: 100vw;*/
+    /*overflow: scroll;*/
+/*}*/
 .contact{
     padding-left: 20%;
     font-size: 14px;
