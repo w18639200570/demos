@@ -118,7 +118,7 @@ CollBox.prototype.ballRun = function() {
                 }
             }
         }
-    }, 30)
+    }, 15)
 };
 CollBox.prototype.ballStop = function() {
     clearInterval(this.ballRunTimer)
