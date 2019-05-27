@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <title></title>
     <style type="text/css">
-        html,body{width: 100%; height: 100%;}
-        #container{width:100%; height: 100%; position:relative;}
+        /*html,body{width: 100%; height: 100%;}*/
+        #container{width:50%; height: 500px; position:relative;}
+        #container div img{
+            width: 50px;
+            height: 50px;
+        }
     </style>
 </head>
 <body>
@@ -15,7 +19,7 @@
 <script src="js/collision.min.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
     function rand(m,n){return m+parseInt((n-m)*Math.random());}
-    var says=['撞三次改颜色','谁撞我','不想活了','来啊互相伤害','我要废了你','撞50次改大小','再撞下试试','试试就试试','窗前明月光','撞的心发慌','举头天花板','低头一肥皂'];
+    var says=['<img src="img/icon-08.png">','<img src="img/icon-09.png">','<img src="img/icon-10.png">','<img src="img/icon-11.png">','<img src="img/icon-12.png">','<img src="img/orange-ball.png">','<img src="img/pink-ball.png">'];
     var saysLength=says.length;
     var oC=document.getElementById('container');
     var mxwidth=oC.offsetWidth;
@@ -24,7 +28,7 @@
 
     var oB=new CollBox('container');
     oB.ballRun();
-    for(var i=0;i<15;i++){
+    for(var i=0;i<7;i++){
         var b=rand(40,60);
         var x=rand(b,mxwidth-b);
         var y=rand(b,mxheight-b);
@@ -36,15 +40,9 @@
             'sy':rand(1,4),
             'c':'url(img/paopao'+rand(1,6)+'.png)',
             'opa':rand(60,100)/100,
+            'html':says[i],
             'callBack':function(n){
-                //this.setB(rand(30,50));
-                //this.setM();
                 this.setOpa(rand(60,100)/100);
-                if(n%3==0){this.setC('url(img/paopao'+rand(1,6)+'.png)')};//撞三次改变下图片
-                if(n%50==0){
-                    this.setB(rand(40+parseInt((n>1000?1000:n)/50),60+parseInt((n>1000?1000:n)/50)));
-                }//撞50次改大小
-                this.setHTML(says[rand(0,saysLength)]);
             }
         });
         oB.addBall(ball);
