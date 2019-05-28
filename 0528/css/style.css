@@ -203,9 +203,9 @@ body {
     margin: auto 5%;
     width: 80%;
 }
-.new-body{
-    background-image: url("../img/bg-space.png");
-}
+/*.new-body{*/
+    /*background-image: url("../img/bg-space.png");*/
+/*}*/
 .img-title{
     margin: 27% 0 0 31%;
     width: 32%;
@@ -248,4 +248,187 @@ body {
 }
 .nav{
     height: 100px;
+}
+
+
+
+/*0528版*/
+.book{
+    position: absolute;
+    bottom: 10px;
+    margin: auto 5%;
+    width: 80%;
+}
+/*使用1.5rem，使其固定*/
+body {
+    width: 100vw;
+    /*background: url("../img/bg-img-528.png") no-repeat 0 1.5rem;*/
+    background-size: 100%;
+    background-color: #F4D7DD;
+}
+
+
+.new-body{
+    background-image: url("../img/bg-img-528.png");
+}
+.img-title{
+    margin: 22% 0 0 31%;
+    width: 32%;
+    /*4张图片大小不一，得规定一下高度，要不然会对下面3个球早成影响*/
+    height: 3.154rem;
+}
+/*.img-title{*/
+    /*margin: 5.4rem 0 0 6.2rem;*/
+    /*width: 7rem;*/
+/*}*/
+
+.sub-book{
+    margin: auto 5%;
+    width: 90%;
+}
+.text-center{
+    text-align: center;
+}
+.text-box{
+    margin: 10% 25px 20px;
+    padding: 15px 20px;
+    background-color: #fffcee;
+    border-radius: 10px;
+    font-size: .8rem;
+}
+.relative{
+    position: relative;
+}
+.swiper-button-prev,.swiper-button-next{
+    top: 0;
+    margin-top: 100%;
+}
+.subtitle-out{
+    width: 100%;
+    text-align: center;
+}
+.sub-title{
+    margin: 0 auto .3rem;
+    display: inline-block;
+    font-size: 1rem;
+    width: 6rem;
+    height: 1.7rem;
+    background-image: url("../img/btn-blue.png");
+    background-size: 6rem 1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+
+/*3个选择球，高，图片，每个球的位置*/
+.nav{
+    height:6.25rem;
+}
+.nav img {
+    width: 12vw;
+    border-radius: 50%;
+}
+.nav-one {
+    position: relative;
+    top: 1.7225rem;
+    left: 4.116rem;
+}
+.nav-two {
+    position: relative;
+    top: 3.5125rem;
+    left: 4.34275rem;
+}
+.nav-three {
+    position: relative;
+    top: 3.5125rem;
+    left: 5.149rem;
+}
+
+/*展示内容格式*/
+.contentText {
+    margin: 0;
+}
+
+/*展开按钮通用格式*/
+.unfoldButton{
+    font-size: .7rem;
+    text-align: center;
+}
+
+.unfoldButton img {
+    width: 12px;
+    vertical-align: bottom;
+}
+
+/*比赛—组织结构的内容，有表格显示*/
+#organization {
+    display: grid;
+    position: relative;
+    grid-template-columns: 25% 30% 45%;
+    grid-template-rows:1.5rem 1.5rem 1.5rem 1.5rem 1.5rem;
+    font-size: .8rem;
+}
+#organization p{
+    margin: 0;
+}
+
+.grid-title {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-weight: bolder;
+}
+
+.grid-title-mainUnit {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    line-height: 5.5rem;
+}
+.grid-title-undertakingUnit {
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.grid-title-supportOrganization {
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
+
+.grid-text-longer {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.grid-hide {
+    display: none;
+}
+
+
+/*赛程安排页面*/
+.plan img {
+    width: 15vw;
+    height: 15vw;
+}
+.plan {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan-text {
+    display: inline-block;
+    margin: 0 10px;
+}
+.plan-text p{
+   margin: 0;
+}
+.text-title {
+    color: #edcb2e;
+    font-size:1rem;
+    font-weight: bolder;
+}
+.text-time {
+    color: #fff;
+    font-size:.6rem;
+}
+.text-box{
+    background-color: transparent;
 }
