@@ -18,9 +18,9 @@
 <img class="img-title" src="../img/anpai.png" />
 
 <div class="nav">
-    <img class="nav-one" src="../img/bisai.png" alt="">
-    <img class="nav-two" src="../img/tiaojian.png" />
-    <img class="nav-three" src="../img/jiangli.png" />
+    <img class="nav-one preface" src="../img/bisai.png" />
+    <img class="nav-two condition" src="../img/tiaojian.png" />
+    <img class="nav-three reward" src="../img/jiangli.png" />
 
 
 </div>
@@ -75,11 +75,13 @@
 
                 <div class="subtitle-out"><span class="sub-title">项目征集</span></div>
 
-                <div class="contentText" >
+                <div class="contentText" id="item">
+                    &emsp;&emsp;（1）各市推荐：由各市通过主题大赛方式筛选甄别、择优上报，推荐到省参加初赛。每市推荐名额为：创意类2个，创业类3个。</br>
 
+                    &emsp;&emsp;（2）自主申报：面向社会征集项目，高校及社会参赛团队（个人）按照同等参赛要求和标准自主报名申报。参赛项目及选手/团队报名，请登陆“Women+”App或新华网江苏频道首页（http://www.js.xinhuanet.com
                 </div>
 
-                <div class="unfoldButton" id="o" onclick="unfold()">
+                <div class="unfoldButton" id="itemBt" onclick="unfoldItem()">
                     <img src="../img/open_pointer.png"/><span >点击获取完整内容</span>
                 </div>
 
@@ -89,10 +91,12 @@
 
                 <div class="subtitle-out"><span class="sub-title">赛程设置</span></div>
 
-                <p class="contentText" >
+                <p class="contentText" id="schedule">
+                    &emsp;&emsp;初赛：大赛主办方邀请评审专家共同组成评审小组，对照推荐条件对候选项目及参赛团队进行资格审查，审核通过，且进入小组前50名的项目，进入复赛。</br>
+                    &emsp;&emsp;复赛：（1）复赛通过官网展示、网络投票/点赞指数征集、专家评审等环节进行；（2）线上投票/点赞指数占总成绩10%，专家评审占90%；（3）线上线下综合评分前15名（创业类、创意类分别）入围决赛。</br>
                 </p>
 
-                <div class="unfoldButton" id="prefaceBt" onclick="unfoldPreface()">
+                <div class="unfoldButton" id="scheduleBt" onclick="unfoldschedule()">
                     <img src="../img/open_pointer.png"/><span >点击获取完整内容</span>
                 </div>
 
@@ -114,7 +118,21 @@
     <img class="sub-book" src="../img/book.png" alt="">
 </footer>
 <!--内容结束-->
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
 <script src="https://cdn.bootcss.com/Swiper/4.5.0/js/swiper.min.js"></script>
+
 <script>
     var swiper = new Swiper('.swiper-container', {
         navigation: {
@@ -134,7 +152,11 @@
     setRem(); //运行脚本setRem
     window.onresize=setRem;  //监听屏幕变化
 
-    <!--5.28 添加第一页无背景色-->
+
+
+
+
+    // <!--5.28 添加第一页无背景色-->
     var swiper = new Swiper('.swiper-container', {
         navigation: {
             nextEl: '.swiper-button-next',
@@ -142,21 +164,31 @@
         },
         on: {
             slideChangeTransitionEnd: function(a){
-                console.log("下标",this.activeIndex);
                 if(this.activeIndex == 0){
-                    this.getElementsByClassName('text-box').style.backgroundColor="";
+                    $('.text-box').css("backgroundColor","");
                 }else{
-                    this.getElementsByClassName('text-box').style.backgroundColor="#fffcee";
+                    $('.text-box').css("backgroundColor","#fffcee");
                 }
             },
         },
     });
 
-
-
-
-
+    function unfoldItem() {
+        document.getElementById("item").innerHTML="&emsp;&emsp;（1）各市推荐：由各市通过主题大赛方式筛选甄别、择优上报，推荐到省参加初赛。每市推荐名额为：创意类2个，创业类3个。</br>" +
+            "&emsp;&emsp;（2）自主申报：面向社会征集项目，高校及社会参赛团队（个人）按照同等参赛要求和标准自主报名申报。参赛项目及选手/团队报名，请登陆“Women+”App或新华网江苏频道首页（http://www.js.xinhuanet.com/），" +
+            "点击“慧创她时代——2019江苏巾帼创业创新大赛”专题页面，按照提示下载报名表报名。</br>" +
+            "&emsp;&emsp;材料要求：</br>&emsp;&emsp;（1）《“慧创她时代”——2019江苏巾帼创业创新大赛报名表》；</br>&emsp;&emsp;（2）2000字左右详细项目材料；</br>&emsp;&emsp;（3）候选人或团队主要负责人身份证件、学历证书、" +
+            "工商营业执照、组织机构代码证、税务登记证或三证合一的营业执照（创业类项目）、获奖证书等相关证明材料复印件及简要创业故事。</br>&emsp;&emsp;请各市推荐及自主申报团队（个人）于2019年6月30日前将审核把关过的推荐材料（报名表、事迹材料、各类证件）" +
+            "电子版，以市为单位统一发至省妇联发展部。</br>&emsp;&emsp;联系人：张洪侠，联系电话（传真）：025-85235931，E-mail:sflfzb@163.com。</br>&emsp;&emsp;附件：</br>" +
+            "&emsp;&emsp;1、“慧创她时代”——2019江苏巾帼创业创新大赛报名表</br>&emsp;&emsp;2、“慧创她时代”——2019江苏巾帼创业创新大赛报名汇总表";
+        document.getElementById("itemBt").style.display="none";
+    }
+    function unfoldschedule() {
+        document.getElementById("preface").innerHTML=" &emsp;&emsp;初赛：大赛主办方邀请评审专家共同组成评审小组，对照推荐条件对候选项目及参赛团队进行资格审查，审核通过，且进入小组前50名的项目，进入复赛。</br>\n" +
+            "                    &emsp;&emsp;复赛：（1）复赛通过官网展示、网络投票/点赞指数征集、专家评审等环节进行；（2）线上投票/点赞指数占总成绩10%，专家评审占90%；（3）线上线下综合评分前15名（创业类、创意类分别）入围决赛。</br>\n" +
+            "                    &emsp;&emsp;决赛：采取现场评比打分的方式进行。现场评比分为项目路演和专家提问两个环节，其中项目路演PPT/VCR展示8分钟，评委提问5分钟。";
+        document.getElementById("prefaceBt").style.display="none";
+    }
 
 </script>
-</body>
 </html>

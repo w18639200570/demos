@@ -203,9 +203,9 @@ body {
     margin: auto 5%;
     width: 80%;
 }
-/*.new-body{*/
-    /*background-image: url("../img/bg-space.png");*/
-/*}*/
+.new-body{
+    background-image: url("../img/bg-space.png");
+}
 .img-title{
     margin: 27% 0 0 31%;
     width: 32%;
@@ -262,7 +262,7 @@ body {
 /*使用1.5rem，使其固定*/
 body {
     width: 100vw;
-    /*background: url("../img/bg-img-528.png") no-repeat 0 1.5rem;*/
+    background: url("../img/bg-img-528.png") no-repeat 0 1.5rem;
     background-size: 100%;
     background-color: #F4D7DD;
 }
@@ -335,12 +335,12 @@ body {
 }
 .nav-two {
     position: relative;
-    top: 3.5125rem;
+    top: 3.7125rem;
     left: 4.34275rem;
 }
 .nav-three {
     position: relative;
-    top: 3.5125rem;
+    top: 3.7125rem;
     left: 5.149rem;
 }
 
@@ -351,11 +351,14 @@ body {
 
 /*展开按钮通用格式*/
 .unfoldButton{
+    margin-top: 1em;
     font-size: .7rem;
     text-align: center;
+
 }
 
 .unfoldButton img {
+    margin-right: .5em;
     width: 12px;
     vertical-align: bottom;
 }
@@ -427,8 +430,11 @@ body {
 }
 .text-time {
     color: #fff;
-    font-size:.6rem;
+    font-size:.8rem;
 }
 .text-box{
     background-color: transparent;
+}
+#item {
+    word-break:break-all
 }
