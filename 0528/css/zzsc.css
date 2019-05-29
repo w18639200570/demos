@@ -73,9 +73,11 @@ span.icons:nth-child(5){
     left: 44px;
 }
 
-a:nth-child(6){
-    top: 23px;
-    left: 12px;
+span.icons:nth-child(6){top: 24px;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
 
 a:hover {

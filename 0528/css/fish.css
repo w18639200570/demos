@@ -1,0 +1,44 @@
+.book{
+    position: static;
+    margin: 120% 0 0;
+    width: 100%;
+}
+.toggle{
+    margin-top: 82%;
+    width: 70px;
+    height: 70px;
+    z-index: 111;
+}
+#plus{
+    margin: 10px;
+}
+.menu{
+    margin-top: 80%;
+}
+.menu > span .icon{
+    width: 22px;
+}
+span.icons:nth-child(1){
+    top: 2px;
+    left: 29px;
+}
+
+span.icons:nth-child(2){
+    top: 22px;
+    left: 2px;
+}
+
+span.icons:nth-child(3){
+    top: 22px;
+    left: 56px;
+}
+
+span.icons:nth-child(4){
+    top: 50px;
+    left: 13px;
+}
+
+span.icons:nth-child(5){
+    top: 50px;
+    left: 45px;
+}
