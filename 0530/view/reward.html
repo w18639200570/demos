@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <!--<meta name="viewport" content="width=750, initial-scale=0">-->
+    <meta name="viewport" content="width=device-100%, initial-scale=1"/>
+    <meta name="renderer" content="webkit">
+    <title>2019江苏巾帼创业创新大赛_新华网江苏频道</title>
+    <link href="https://cdn.bootcss.com/Swiper/4.5.0/css/swiper.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css?v=1.1">
+</head>
+<body class="new-body">
+<img class="img-title" src="../img/jiangli.png" alt="">
+<div class="nav">
+    <a href="preface.html"><img class="nav-one arrange" src="../img/bisai.png"/></a>
+    <a href="arrange.html"><img class="nav-two arrange" src="../img/anpai.png"/></a>
+    <a href="condition.html"><img class="nav-three condition" src="../img/tiaojian.png"/></a>
+</div>
+<!--内容开始-->
+<!--<div class="swiper-button-next"></div>-->
+<!--<div class="swiper-button-prev"></div>-->
+<div class="text-box">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="subtitle-out"><span class="sub-title">奖励办法</span></div>
+
+                <p class="contentText" id="preface">&emsp;&emsp;（一）项目奖项设置<br>
+
+                    &emsp;&emsp;
+                    本次大赛最终评出最具商业价值奖10个（创业类），最具市场潜力奖10个（创意类），每个项目分别给予一万元奖励。所有决赛获奖项目均将获得主办方颁发的荣誉证书，并优先推荐参加全国及省有关部门举办的创业大赛及优秀创业项目路演对接活动，并享受当地政府相应的政策扶持。<br>
+
+                    &emsp;&emsp;（二）人物奖项设置<br>
+
+                    &emsp;&emsp; 本次大赛评出十佳新锐女性创业人物奖、十佳典范女性创业人物奖。分别颁发荣誉证书，并在相关媒体进行集中宣传推介。<br>
+
+                    &emsp;&emsp;（三）组织奖项设置<br>
+
+                    &emsp;&emsp;根据各地组织参赛情况，评出大赛优秀组织奖若干。</div>
+            </p>
+        </div>
+    </div>
+    <!-- Add Arrows -->
+</div>
+<!--内容结束-->
+<script src="https://cdn.bootcss.com/Swiper/4.5.0/js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    function setRem() {
+        var width = document.body.offsetWidth; //获取当前页面的宽度
+        if (width > 440) {
+            width = 440;
+        }
+        var nowFont = width / 320 * 16; //设置页面的字体大小
+        var htmlFont = document.getElementsByTagName('html')[0]; //通过标签名称来获取元素
+        htmlFont.style.fontSize = nowFont + "px"; // 给获取到的元素的字体大小赋值
+    }
+
+    setRem(); //运行脚本setRem
+    window.onresize = setRem;  //监听屏幕变化
+</script>
+</body>
+</html>

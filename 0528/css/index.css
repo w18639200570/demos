@@ -1,0 +1,793 @@
+@charset "UTF-8";
+/**
+*
+@Author: MiniHui
+@Date: Mon Apr 29 2019 08:24:05 GMT+0800 (CST)
+*
+*/
+html,
+body,
+div,
+p,
+hr,
+pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+tr,
+td,
+th,
+tfoot,
+tbody,
+thead,
+form,
+input,
+textarea,
+label,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+.clearfix:after {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /*font-family: 'PingFang SC', 'Lantinghei SC', 'Helvetica Neue', 'Helvetica', 'Arial', 'Microsoft YaHei', '寰蒋闆呴粦', 'STHeitiSC-Light', 'simsun', '瀹嬩綋', 'WenQuanYi Zen Hei', 'WenQuanYi Micro Hei', 'sans-serif' !important;*/
+    font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "寰蒋闆呴粦", STHeitiSC-Light, simsun, "瀹嬩綋", "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #3773db;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+iframe,
+img {
+    border: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    border: 0;
+    outline: 0;
+}
+
+/* 鍥剧墖鍦板潃 */
+/* 棰滆壊 */
+/* 灞忓箷灏哄 */
+html,
+body {
+    position: relative;
+}
+
+.clearfix {
+    display: block;
+}
+
+.clearfix:after {
+    content: '';
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+    font-size: 0px;
+    display: block;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+@-webkit-keyframes rotateActive {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        transform: rotate(0);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateActive {
+    0% {
+        -moz-transform: rotate(0);
+        transform: rotate(0);
+        transform: rotate(0);
+    }
+    50% {
+        -moz-transform: rotate(180deg);
+        transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateActive {
+    0% {
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        transform: rotate(0);
+        transform: rotate(0);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes fyAni {
+    0% {
+        -webkit-transform: translate3d(8px, 5px, 2px);
+        transform: translate3d(8px, 5px, 2px);
+    }
+    100% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+@-moz-keyframes fyAni {
+    0% {
+        -moz-transform: translate3d(8px, 5px, 2px);
+        transform: translate3d(8px, 5px, 2px);
+    }
+    100% {
+        -moz-transform: translate3d(0px, 0px, 0px);
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+@keyframes fyAni {
+    0% {
+        -webkit-transform: translate3d(8px, 5px, 2px);
+        -moz-transform: translate3d(8px, 5px, 2px);
+        transform: translate3d(8px, 5px, 2px);
+    }
+    100% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -moz-transform: translate3d(0px, 0px, 0px);
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+@-webkit-keyframes scaletip {
+    0% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        /* opacity: .6; */
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        /* opacity: 1; */
+    }
+}
+
+@-moz-keyframes scaletip {
+    0% {
+        -moz-transform: scale(0.8);
+        transform: scale(0.8);
+        /* opacity: .6; */
+    }
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+        /* opacity: 1; */
+    }
+}
+
+@keyframes scaletip {
+    0% {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        transform: scale(0.8);
+        /* opacity: .6; */
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        transform: scale(1);
+        /* opacity: 1; */
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+        -webkit-transform: rotateX(180deg) rotateY(180deg);
+        transform: rotateX(180deg) rotateY(180deg);
+    }
+    100% {
+        -webkit-transform: rotateX(360deg) rotateY(360deg);
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotateX(0deg) rotateY(0deg);
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+        -moz-transform: rotateX(180deg) rotateY(180deg);
+        transform: rotateX(180deg) rotateY(180deg);
+    }
+    100% {
+        -moz-transform: rotateX(360deg) rotateY(360deg);
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+        -moz-transform: rotateX(0deg) rotateY(0deg);
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+        -webkit-transform: rotateX(180deg) rotateY(180deg);
+        -moz-transform: rotateX(180deg) rotateY(180deg);
+        transform: rotateX(180deg) rotateY(180deg);
+    }
+    100% {
+        -webkit-transform: rotateX(360deg) rotateY(360deg);
+        -moz-transform: rotateX(360deg) rotateY(360deg);
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes rotate2d {
+    from {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotate2d {
+    from {
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        transform: rotate(0);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate2d {
+    from {
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        transform: rotate(0);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.page-box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.pagewarp {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #001e52;
+    overflow: hidden;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    margin: 45vh auto 0;
+    position: relative;
+    -webkit-transform: perspective(800px) rotateY(64deg) rotateX(7deg);
+    -moz-transform: perspective(800px) rotateY(64deg) rotateX(7deg);
+    transform: perspective(800px) rotateY(64deg) rotateX(7deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    z-index: 8;
+}
+
+#box.boxAnim {
+    -webkit-animation: 20s spin linear infinite;
+    -moz-animation: 20s spin linear infinite;
+    animation: 20s spin linear infinite;
+}
+
+#box div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+}
+
+.tit {
+    position: absolute;
+    top: 1.5vh;
+    left: 12%;
+    width: 76%;
+    z-index: 9;
+}
+
+.tit img {
+    width: 100%;
+}
+
+.bgpng {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.bgpng img {
+    width: 100%;
+}
+
+.front {
+    -webkit-transform: translateZ(100px);
+    -moz-transform: translateZ(100px);
+    transform: translateZ(100px);
+    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a5.png");
+}
+
+.front a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 99999;
+    position: relative;
+}
+
+.back {
+    -webkit-transform: translateZ(-100px);
+    -moz-transform: translateZ(-100px);
+    transform: translateZ(-100px);
+    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a1.png");
+}
+
+.left {
+    -webkit-transform: translateX(-100px) rotateY(-90deg);
+    -moz-transform: translateX(-100px) rotateY(-90deg);
+    transform: translateX(-100px) rotateY(-90deg);
+    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a2.png");
+}
+
+.right {
+    -webkit-transform: translateX(100px) rotateY(90deg);
+    -moz-transform: translateX(100px) rotateY(90deg);
+    transform: translateX(100px) rotateY(90deg);
+    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a3.png");
+}
+
+.top {
+    -webkit-transform: translateY(-100px) rotateX(90deg);
+    -moz-transform: translateY(-100px) rotateX(90deg);
+    transform: translateY(-100px) rotateX(90deg);
+    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a4.png");
+}
+
+.bottom {
+    -webkit-transform: translateY(100px) rotateX(90deg);
+    -moz-transform: translateY(100px) rotateX(90deg);
+    transform: translateY(100px) rotateX(90deg);
+    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a6.png");
+}
+
+.pagewarp {
+    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/bg-cover.png") center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.mask,
+.maskitem {
+    width: 100%;
+    height: 100vh;
+    background: #001e52;
+    overflow: hidden;
+}
+
+.mask {
+    display: none;
+    background: #fff;
+    z-index: 9999;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.maskitem {
+    display: none;
+    color: #3e3e3e;
+    background: #fff;
+    width: 100%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    height: 100vh;
+    position: relative;
+}
+
+/* .maskitemcon {
+    text-align: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+.maskitemcon-text {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.maskitemcon-pic {
+    width: 100%;
+}
+
+.maskitemcon-text-tit {
+    font-size: 22px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    background: #ffd749;
+    margin: 20px 0px;
+    display: inline-block;
+}
+
+.maskitemcon-text-abs {
+    width: 100%;
+    padding: 0px 20px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 36px;
+    text-indent: 2em;
+}
+
+
+.shipinItem0 {
+    background: url('http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/shipinbg.jpg') center top no-repeat #020409;
+    background-size: cover
+}
+
+.tujiItem5 {
+    background: url('http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/tujibg.jpg') center top no-repeat;
+    background-size: cover
+} */
+/* .fixedPic {padding-top:195px;}
+.fixedPic .maskitemcon-pic{position: fixed;top:0px;left:0px;width:100%;overflow: hidden;} */
+/* .swiper-container {
+    width: 100%;
+    height: 200px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .musiCon{width:100%;height:100vh;position: absolute;top:0p;} */
+/* .musicControl {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 70%;
+    top: 45%;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.musicControlCon {
+    width: 60px;
+    height: 60px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.musicControlCon {
+    background: url('http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/musicpan2.png') center top no-repeat;
+    background-size: cover;
+} */
+/* .musicline{ width: 50px;position: absolute;top: -25px;right: 0px;} */
+/* .musicplay .musicControlCon {
+    animation: rotateActive 10s linear infinite;
+    background-image: url('http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/musicpan.png')
+} */
+/* 绱х揣澶氶鍒囨崲鎾斁鏁村睆闊充箰 */
+/* .onlymusic {
+    background: url('http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/musicbg.jpg') center top no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+    position: relative;
+}
+
+.onlymusicCon {
+    width: 260px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.onlymusicConwarp {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.onlymusicViweTit {
+    color: #fff;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.onlymusicViwePic {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: url('http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/musicView.png') center top no-repeat;
+    background-size: cover;
+    margin: 0px auto 30px;
+}
+
+.rotateElem {
+    animation: rotate2d 12s linear infinite;
+}
+
+.onlymusicViwePic img {
+    display: block;
+    width: 146px;
+    height: 146px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 27px 24px 24px 27px;
+}
+
+.onlymusicControl {
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+}
+
+.onlymusicControl li {
+    width: 46px;
+    float: left;
+    display: inline;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.onlymusicControl li:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.preMusic,
+.stauseMusic,
+.nextMusic {
+    background: center top no-repeat;
+    background-size: contain;
+    height: 46px;
+}
+
+.preMusic {
+    background-image: url('http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/musicLbtn.png');
+} */
+/* .stauseMusic{background-image: url('http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/musicPlayebtn.png');} */
+/* .nextMusic {
+    background-image: url('http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/musicRbtn.png')
+} */
+/* .onlymusicPlay{background-image: url('http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/musicPausebtn.png')} */
+/* .backbtn {
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    height: 50px;
+    display: block;
+    background: #bf8700;
+    border-radius: 50%;
+    padding: 10px;
+} */
+.tip {
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -100px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation: scaletip 3s linear 0s infinite alternate;
+    -moz-animation: scaletip 3s linear 0s infinite alternate;
+    animation: scaletip 3s linear 0s infinite alternate;
+    z-index: 22;
+}
+
+/* .nexpagecon {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/nexpagecon.jpg) center bottom no-repeat scroll;
+    z-index: 8888;
+    background-size: cover;
+    display: none;
+}
+
+.nextpagebtn {
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: url(http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/nextpagebtn.png) right bottom no-repeat;
+    z-index: 33;
+    background-size: 24%;
+    animation: fyAni 1s linear forwards infinite alternate;
+} */
+.active {
+    display: block;
+}
+
+.music {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    left: .5rem;
+    top: .5rem;
+    z-index: 999;
+}
+
+.music .control {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/music.gif") center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+}
+
+.music.stopped .control {
+    background: 0 0;
+}
+
+.music .control .control-after {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -.75rem;
+    margin-left: -.75rem;
+    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/music_off.png") center center no-repeat;
+    -wehttp://www.xinhuanet.com/politics/dxszqc/index/mobile/images/ckground-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -webkit-animation: rotate2d 1.2s linear infinite;
+    -moz-animation: rotate2d 1.2s linear infinite;
+    animation: rotate2d 1.2s linear infinite;
+    z-index: -1;
+}
+
+.music.stopped .control .control-after {
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+}
+
+/*# sourceMappingURL=maps/index.css.map */

@@ -1,0 +1,469 @@
+/*!
+ * Bootstrap Reboot v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+ */
+*,
+*::before,
+*::after {
+    /*-webkit-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    overflow-X: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto; }
+
+body {
+    background: url("../img/background.png") no-repeat top;
+    /*background-position: 0 100px ;*/
+}
+
+
+.copyright {
+    padding: 32px;
+    text-align: center; }
+.copyright p {
+    margin-bottom: 0;
+    line-height: 1.8;
+    color: #3a3a3a; }
+.copyright p span {
+    margin-right: 1em; }
+
+body {
+    width: 100vw;
+    background: url("../img/background.png") no-repeat 0 1.5rem;
+    background-size: 100%;
+    background-color: #F4D7DD;
+}
+
+.inline-block{
+    display: inline-block;
+    text-align: center;
+}
+/*.single-line{*/
+    /*line-height: 3;*/
+/*}*/
+/*.preface{*/
+    /*position: absolute;*/
+    /*display: inline-block;*/
+    /*margin: 126px 0 0 126px;*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+    /*line-height: 3;*/
+    /*text-align: center;*/
+    /*color:#fff;*/
+    /*background-color: #1de7ff;*/
+    /*background-image: url(../img/orange-ball.png);*/
+    /*background-size: 50px 50px;*/
+    /*-webkit-border-radius: 50%;*/
+    /*-moz-border-radius: 50%;*/
+    /*border-radius: 50%;*/
+    /*z-index: 11;*/
+/*}*/
+/*!*.star-content,body,html{*!*/
+    /*!*width: 100vw;*!*/
+    /*!*overflow: scroll;*!*/
+/*!*}*!*/
+/*.contact{*/
+    /*!*padding-left: 20%;*!*/
+    /*font-size: 14px;*/
+    /*text-align: center;*/
+/*}*/
+/*.contact p {*/
+    /*text-align: left;*/
+/*}*/
+/*.copyright{*/
+    /*padding-top: 0;*/
+    /*font-size: 12px;*/
+/*}*/
+
+/*subview*/
+/*.box{*/
+    /*margin: 5% 5% 5%;*/
+    /*padding: 12px;*/
+    /*background-color: #fffcee;*/
+    /*border-radius: 15px;*/
+/*}*/
+/*.nav{*/
+    /*margin: 0 auto;*/
+    /*width: 300px;*/
+    /*padding-left: 20px;*/
+/*}*/
+/*.nav:last-child{*/
+    /*margin-right: 0;*/
+/*}*/
+/*.ball-right{*/
+    /*margin: 15px auto 30px;*/
+/*}*/
+/*.nav-ball{*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+    /*margin-right: 20px;*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+    /*text-align: center;*/
+    /*color: #fff;*/
+    /*border-radius: 50%;*/
+    /*text-decoration: none;*/
+    /*vertical-align: top;*/
+/*}*/
+/*.nav-ball img{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: -1;*/
+    /*animation: ball 26s linear infinite;*/
+    /*-webkit-animation: ball 26s linear infinite;*/
+/*}*/
+/*.nav-blue{*/
+    /*background-color: #1de7ff;*/
+    /*background: url(../img/blue-ball.png) no-repeat;*/
+    /*background-size: 50px 50px;*/
+/*}*/
+@keyframes ball {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/*第一版*/
+.title{
+    margin: 5% auto 0;
+    background: url(../img/btn-blue.png) no-repeat;
+    width: 150px;
+    height: 40px;
+    background-size: 150px 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #333;
+    font-size: 22px;
+}
+.time{
+    margin: 25px 15px 60px;
+    width: calc(100vw - 30px);
+}
+.subtitle{
+    padding: 10px;
+    font-size: 22px;
+    color: #27747c;
+    text-align: center;
+    letter-spacing: 8px;
+}
+.group-title{
+    margin-top:10px;
+    margin-bottom:10px;
+    display:inline-block;
+    font-size : 20px;
+    color: #3aa9bc
+}
+/*第二版*/
+/*#container{*/
+    /*margin-top: 70%;*/
+    /*width:100%;*/
+    /*height: 300px;*/
+    /*position:relative;*/
+/*}*/
+/*#container div img{*/
+    /*margin-top: 15px;*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+/*}*/
+
+/*0527版*/
+.book{
+    position: absolute;
+    bottom: 10px;
+    margin: auto 5%;
+    width: 80%;
+}
+/*.new-body{*/
+    /*background-image: url("../img/bg-space.png");*/
+/*}*/
+.img-title{
+    margin: 27% 0 0 31%;
+    width: 32%;
+}
+.sub-book{
+    margin: auto 5%;
+    width: 90%;
+}
+.text-center{
+    text-align: center;
+}
+.text-box{
+    margin: 10% 25px 20px;
+    padding: 15px 20px;
+    background-color: #fffcee;
+    border-radius: 10px;
+    font-size: .8rem;
+    /*overflow: hidden;*/
+}
+.relative{
+    position: relative;
+}
+.swiper-button-prev,.swiper-button-next{
+    top: 0;
+    margin-top: 100%;
+}
+.subtitle-out{
+    width: 100%;
+    text-align: center;
+}
+.sub-title{
+    margin: 0 auto .3rem;
+    display: inline-block;
+    font-size: 1rem;
+    width: 6rem;
+    height: 1.7rem;
+    background-image: url("../img/btn-blue.png");
+    background-size: 6rem 1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+}
+.nav{
+    height: 100px;
+}
+
+
+
+/*0528版*/
+.book{
+    position: absolute;
+    bottom: 10px;
+    margin: auto 5%;
+    width: 80%;
+}
+/*使用1.5rem，使其固定*/
+body {
+    width: 100vw;
+    /*background: url("../img/bg-img-528.png") no-repeat 0 1.5rem;*/
+    background-size: 100%;
+    background-color: #F4D7DD;
+}
+
+
+.new-body{
+    background-image: url("../img/bg-img-528.png");
+}
+.img-title{
+    margin: 22% 0 0 31%;
+    width: 32%;
+    /*4张图片大小不一，得规定一下高度，要不然会对下面3个球早成影响*/
+    height: 3.154rem;
+}
+/*.img-title{*/
+    /*margin: 5.4rem 0 0 6.2rem;*/
+    /*width: 7rem;*/
+/*}*/
+
+.sub-book{
+    margin: auto 5%;
+    width: 90%;
+}
+.text-center{
+    text-align: center;
+}
+.text-box{
+    max-height: 37vh;
+    margin: 5% 25px 20px;
+    padding: 15px 20px;
+    background-color: #fffcee;
+    border-radius: 10px;
+    font-size: .8rem;
+    /*overflow: scroll;*/
+}
+.relative{
+    position: relative;
+}
+.swiper-button-prev,.swiper-button-next{
+    top: 0;
+    margin-top: 100%;
+}
+.subtitle-out{
+    width: 100%;
+    text-align: center;
+}
+.sub-title{
+    margin: 0 auto .3rem;
+    display: inline-block;
+    font-size: 1rem;
+    width: 6rem;
+    height: 1.7rem;
+    background-image: url("../img/btn-blue.png");
+    background-size: 6rem 1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+
+/*3个选择球，高，图片，每个球的位置*/
+.nav{
+    height:6.25rem;
+}
+.nav img {
+    width: 12vw;
+    border-radius: 50%;
+}
+.nav-one {
+    position: relative;
+    top: 1.7225rem;
+    left: 4.116rem;
+}
+.nav-two {
+    position: relative;
+    top: 3.7125rem;
+    left: 4.34275rem;
+}
+.nav-three {
+    position: relative;
+    top: 3.7125rem;
+    left: 5.149rem;
+}
+
+/*展示内容格式*/
+.contentText {
+    margin: 0;
+}
+
+/*展开按钮通用格式*/
+.unfoldButton{
+    margin-top: 1em;
+    font-size: .7rem;
+    text-align: center;
+
+}
+
+.unfoldButton img {
+    margin-right: .5em;
+    width: 12px;
+    vertical-align: bottom;
+}
+
+/*比赛—组织结构的内容，有表格显示*/
+#organization {
+    display: grid;
+    position: relative;
+    grid-template-columns: 25% 30% 45%;
+    grid-template-rows:1.5rem 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem;
+    font-size: .8rem;
+}
+#organization p{
+    margin: 0;
+}
+
+.grid-title {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-weight: bolder;
+}
+
+.grid-title-mainUnit {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    line-height: 5.5rem;
+}
+.grid-title-undertakingUnit {
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.grid-none-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.grid-title-supportOrganization {
+    grid-row-start: 8;
+    grid-row-end: 10;
+}
+.grid-none-2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.grid-text-longer {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.grid-hide {
+    display: block;
+}
+
+
+/*赛程安排页面*/
+.plan img {
+    width: 15vw;
+    height: 15vw;
+}
+.plan {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan-text {
+    display: inline-block;
+    margin: 0 10px;
+}
+.plan-text p{
+   margin: 0;
+}
+.text-title {
+    color: #edcb2e;
+    font-size:1rem;
+    font-weight: bolder;
+}
+.text-time {
+    color: #fff;
+    font-size:.8rem;
+}
+.text-box-1 {
+    background-color: transparent;
+    margin: 2% 25px 20px;
+}
+#item {
+    word-break:break-all
+}
+/*swiper*/
+.swiper-slide{
+    overflow: hidden;
+}
+
+.swiper-slide-active{
+    overflow: auto !important;
+}
+
+.swiper-slide{
+    background-color: #fffcee;
+    max-height: 35vh;
+}
+.competitionPlan{
+    background: none;
+}
+.swiper-button-prev, .swiper-button-next{
+    outline: none;
+}
