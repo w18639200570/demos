@@ -220,7 +220,6 @@ body {
 .text-box{
     margin: 10% 25px 20px;
     padding: 15px 20px;
-    background-color: #fffcee;
     border-radius: 10px;
     font-size: .8rem;
     /*overflow: hidden;*/
@@ -270,13 +269,13 @@ body {
 
 
 .new-body{
-    background-image: url("../img/bg-img-528.png");
+    background-image: url("../imgs/bg-29.png");
 }
 .img-title{
-    margin: 22% 0 0 31%;
-    width: 32%;
+    margin: 27.5% 0 0 31%;
+    width: 39%;
     /*4张图片大小不一，得规定一下高度，要不然会对下面3个球早成影响*/
-    height: 3.154rem;
+    height: 2rem;
 }
 /*.img-title{*/
     /*margin: 5.4rem 0 0 6.2rem;*/
@@ -294,7 +293,6 @@ body {
     max-height: 37vh;
     margin: 5% 25px 20px;
     padding: 15px 20px;
-    background-color: #fffcee;
     border-radius: 10px;
     font-size: .8rem;
     /*overflow: scroll;*/
@@ -326,10 +324,6 @@ body {
 /*3个选择球，高，图片，每个球的位置*/
 .nav{
     height:6.25rem;
-}
-.nav img {
-    width: 12vw;
-    border-radius: 50%;
 }
 .nav-one {
     position: relative;
@@ -458,8 +452,8 @@ body {
 }
 
 .swiper-slide{
-    background-color: #fffcee;
     max-height: 35vh;
+    text-align: center;
 }
 .competitionPlan{
     background: none;

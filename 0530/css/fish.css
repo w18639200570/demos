@@ -55,3 +55,43 @@ span.icons:nth-child(5){
     width: 150px;
     height: 150px;
 }
+.rel{
+    position: relative;
+}
+.paopao{
+    display: inline-block;
+    width: 2.05rem;
+    height: 2.05rem;
+    text-align: center;
+    /*background: royalblue;*/
+    background-size: 2.05rem 2.05rem;
+}
+.paopao > img{
+    margin-top: .4rem;
+    width: 1.1rem;
+}
+.paopao1{
+    top: 1.85rem;
+    left: 2.5rem;
+    background-image: url("../imgs/paopao1.png");
+}
+.paopao2{
+    top: 3.2rem;
+    left: 2.1rem;
+    background-image: url("../imgs/paopao2.png");
+}
+.paopao3{
+    top: 3.9rem;
+    left: 2.1rem;
+    background-image: url("../imgs/paopao3.png");
+}
+.paopao4{
+    top: 4.3rem;
+    left: 2.1rem;
+    background-image: url("../imgs/paopao4.png");
+}
+.paopao5{
+    top: 3.7rem;
+    left: 2.1rem;
+    background-image: url("../imgs/paopao5.png");
+}

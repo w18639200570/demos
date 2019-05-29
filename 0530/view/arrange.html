@@ -177,22 +177,9 @@
         },
         on: {
             slideChangeTransitionEnd: function (a) {
-                if (this.activeIndex == 0) {
-                    $('.text-box').css("backgroundColor", "");
-                    $('.text-box').css("margin", "2% 25px 20px")
-                } else {
-                    $('.text-box').css("backgroundColor", "#fffcee");
-                    $('.text-box').css("margin", "5% 25px 20px");
-                }
+
             },
             slideChangeTransitionStart: function (a) {
-                if (this.activeIndex == 0) {
-                    $('.text-box').css("backgroundColor", "");
-                    $('.text-box').css("margin", "2% 25px 20px")
-                } else {
-                    $('.text-box').css("backgroundColor", "#fffcee");
-                    $('.text-box').css("margin", "5% 25px 20px");
-                }
             }
         },
     });
