@@ -365,7 +365,7 @@ body {
 #box {
     width: 8rem;
     height: 8rem;
-    margin: 16rem auto 0;
+    margin: 16.5rem auto 0;
     position: relative;
     -webkit-transform: perspective(800px) rotateY(64deg) rotateX(7deg);
     -moz-transform: perspective(800px) rotateY(64deg) rotateX(7deg);
