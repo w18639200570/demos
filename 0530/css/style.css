@@ -272,7 +272,7 @@ body {
     background-image: url("../imgs/bg-29.png");
 }
 .img-title{
-    margin: 27.5% 0 0 31%;
+    margin: 23% 0 0 31%;
     width: 39%;
     /*4张图片大小不一，得规定一下高度，要不然会对下面3个球早成影响*/
     height: 2rem;
@@ -452,7 +452,7 @@ body {
 }
 
 .swiper-slide{
-    max-height: 35vh;
+    max-height: 12rem;
     text-align: center;
 }
 .competitionPlan{
