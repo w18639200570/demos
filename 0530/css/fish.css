@@ -3,7 +3,7 @@ html{
 }
 .book{
     position: static;
-    margin: 0 0 0;
+    margin: -0.5rem 0 0;
     width: 100%;
 }
 .toggle{
@@ -48,7 +48,7 @@ span.icons:nth-child(5){
 /*魔方*/
 .pagewarp{
     width: 100%;
-    height: 27.5rem;
+    height: 28.3rem;
     background:none;
 }
 .item{
