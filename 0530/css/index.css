@@ -363,9 +363,9 @@ body {
 }
 
 #box {
-    width: 8rem;
-    height: 8rem;
-    margin: 17.3rem auto 0;
+    width: 6rem;
+    height: 6rem;
+    margin: 16.5rem auto 0;
     position: relative;
     -webkit-transform: perspective(800px) rotateY(64deg) rotateX(7deg);
     -moz-transform: perspective(800px) rotateY(64deg) rotateX(7deg);
@@ -419,9 +419,9 @@ body {
 }
 
 .front {
-    -webkit-transform: translateZ(4rem);
-    -moz-transform: translateZ(4rem);
-    transform: translateZ(4rem);
+    -webkit-transform: translateZ(3rem);
+    -moz-transform: translateZ(3rem);
+    transform: translateZ(3rem);
     background: url("../imgs/1.png");
 }
 
@@ -435,37 +435,37 @@ body {
 }
 
 .back {
-    -webkit-transform: translateZ(-4rem);
-    -moz-transform: translateZ(-4rem);
-    transform: translateZ(-4rem);
+    -webkit-transform: translateZ(-3rem);
+    -moz-transform: translateZ(-3rem);
+    transform: translateZ(-3rem);
     background: url("../imgs/2.png");
 }
 
 .left {
-    -webkit-transform: translateX(-4rem) rotateY(-90deg);
-    -moz-transform: translateX(-4rem) rotateY(-90deg);
-    transform: translateX(-4rem) rotateY(-90deg);
+    -webkit-transform: translateX(-3rem) rotateY(-90deg);
+    -moz-transform: translateX(-3rem) rotateY(-90deg);
+    transform: translateX(-3rem) rotateY(-90deg);
     background: url("../imgs/3.png");
 }
 
 .right {
-    -webkit-transform: translateX(4rem) rotateY(90deg);
-    -moz-transform: translateX(4rem) rotateY(90deg);
-    transform: translateX(4rem) rotateY(90deg);
+    -webkit-transform: translateX(3rem) rotateY(90deg);
+    -moz-transform: translateX(3rem) rotateY(90deg);
+    transform: translateX(3rem) rotateY(90deg);
     background: url("../imgs/4.png");
 }
 
 .top {
-    -webkit-transform: translateY(-4rem) rotateX(90deg);
-    -moz-transform: translateY(-4rem) rotateX(90deg);
-    transform: translateY(-4rem) rotateX(90deg);
+    -webkit-transform: translateY(-3rem) rotateX(90deg);
+    -moz-transform: translateY(-3rem) rotateX(90deg);
+    transform: translateY(-3rem) rotateX(90deg);
     background: url("../imgs/5.png");
 }
 
 .bottom {
-    -webkit-transform: translateY(4rem) rotateX(90deg);
-    -moz-transform: translateY(4rem) rotateX(90deg);
-    transform: translateY(4rem) rotateX(90deg);
+    -webkit-transform: translateY(3rem) rotateX(90deg);
+    -moz-transform: translateY(3rem) rotateX(90deg);
+    transform: translateY(3rem) rotateX(90deg);
     background: url("../imgs/6.png");
 }
 
