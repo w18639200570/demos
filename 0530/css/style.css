@@ -56,7 +56,7 @@ body {
 
 body {
     width: 100vw;
-    background: url("../img/background.png") no-repeat 0 1.5rem;
+    background: url("../img/background.png") no-repeat 0 .7rem;
     background-size: 100%;
     background-color: #F4D7DD;
 }

@@ -48,7 +48,7 @@ span.icons:nth-child(5){
 /*魔方*/
 .pagewarp{
     width: 100%;
-    height: 25rem;
+    height: 24.2rem;
     background:none;
 }
 .item{
@@ -96,5 +96,8 @@ span.icons:nth-child(5){
     background-image: url("../imgs/paopao5.png");
 }
 .home{
-
+    position: fixed;
+    right: 2px;
+    top: 28.3rem;
+    width: 2.3rem;
 }
