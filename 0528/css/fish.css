@@ -4,7 +4,7 @@
     width: 100%;
 }
 .toggle{
-    margin-top: 82%;
+    margin-top: 84%;
     width: 70px;
     height: 70px;
     z-index: 111;
@@ -13,7 +13,7 @@
     margin: 10px;
 }
 .menu{
-    margin-top: 80%;
+    margin-top: 82%;
 }
 .menu > span .icon{
     width: 22px;
