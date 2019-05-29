@@ -422,7 +422,7 @@ body {
     -webkit-transform: translateZ(4rem);
     -moz-transform: translateZ(4rem);
     transform: translateZ(4rem);
-    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a5.png");
+    background: url("../imgs/1.png");
 }
 
 .front a {
@@ -438,35 +438,35 @@ body {
     -webkit-transform: translateZ(-4rem);
     -moz-transform: translateZ(-4rem);
     transform: translateZ(-4rem);
-    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a1.png");
+    background: url("../imgs/2.png");
 }
 
 .left {
     -webkit-transform: translateX(-4rem) rotateY(-90deg);
     -moz-transform: translateX(-4rem) rotateY(-90deg);
     transform: translateX(-4rem) rotateY(-90deg);
-    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a2.png");
+    background: url("../imgs/3.png");
 }
 
 .right {
     -webkit-transform: translateX(4rem) rotateY(90deg);
     -moz-transform: translateX(4rem) rotateY(90deg);
     transform: translateX(4rem) rotateY(90deg);
-    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a3.png");
+    background: url("../imgs/4.png");
 }
 
 .top {
     -webkit-transform: translateY(-4rem) rotateX(90deg);
     -moz-transform: translateY(-4rem) rotateX(90deg);
     transform: translateY(-4rem) rotateX(90deg);
-    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a4.png");
+    background: url("../imgs/5.png");
 }
 
 .bottom {
     -webkit-transform: translateY(4rem) rotateX(90deg);
     -moz-transform: translateY(4rem) rotateX(90deg);
     transform: translateY(4rem) rotateX(90deg);
-    background: url("http://www.xinhuanet.com/politics/dxszqc/index/mobile/images/a6.png");
+    background: url("../imgs/6.png");
 }
 
 .pagewarp {
