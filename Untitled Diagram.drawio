@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T10:27:12.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Q71Erm7bfSH_wZD-aqPI" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T01:41:19.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="KCpRYOSwfBsmmW-17Pl2" version="17.1.2" type="github">
   <diagram id="XXlGeJksOba1PR5_L8N_" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="s_1vVFFNDVBrdaQugj81-1" value="小诸葛" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HW3j2pj-NLUR_578YL64-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s_1vVFFNDVBrdaQugj81-1" target="HW3j2pj-NLUR_578YL64-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_1vVFFNDVBrdaQugj81-1" value="小诸葛" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HW3j2pj-NLUR_578YL64-3" value="顾问" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
